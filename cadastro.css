@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.cadastro{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #000;
+    width: 380px;
+    height: 690px;
+       
+}
+
+p{
+    margin-bottom: 25%;
+    font-size: 50px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.caixa{
+    width: 100%;
+    height: 35px;
+    
+}
+
+.back{
+    padding-top: 30px;
+    cursor: pointer;
+}
